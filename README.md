@@ -3,5 +3,4 @@ Data Cleaning and Preprocessing Internship Task
 
 ![Screenshot](Screenshot.png)
 
-![Cleaned dataset](Cleaned dataset.png)
 
