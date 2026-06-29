@@ -1,0 +1,35 @@
+"Data Cleaning and Preprocessing – Internship Task"
+
+-> Objective
+Clean and prepare the raw dataset (`marketing_campaign.csv`) by handling missing values, duplicates, inconsistent formats, and outliers.
+-> Tools Used
+- Python (Pandas)
+- Google Colab
+
+Steps Performed
+1. Handled Missing Values – Filled null 'income' values with median.  
+2. Removed Duplicates – Ensured no duplicate rows.  
+3. Standardized Column Names – Converted to lowercase.  
+4. Converted Dates – Changed 'dt_customer' to datetime format.  
+5. Fixed Categories – Standardized inconsistent values in `education` and `marital_status`.  
+6. Outlier Treatment – Removed unrealistic birth years and capped extreme incomes.  
+7. Exported Cleaned Dataset – Saved as 'cleaned_marketing_campaign.csv'.
+
+Results
+- Final dataset shape: '(rows, columns)'after cleaning.  
+- Birth years range: 1901–1999.  
+- Income capped at 99th percentile.  
+
+ Screenshots
+- Notebook cleaning steps  
+- Cleaned dataset preview  
+- GitHub repo upload  
+
+ Files in Repo
+-'marketing_campaign_cleaning.ipynb' - Jupyter/Colab notebook with code.  
+-'cleaned_marketing_campaign.csv' - Final cleaned dataset.  
+-'/screenshots' - Proof of work.  
+
+---
+
+This README explains your workflow clearly and makes your repo interview‑ready.
